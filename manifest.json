@@ -1,0 +1,20 @@
+{
+  "name": "Videolearning VŠEM Watchmarker",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Add progress tracking to Videolearning VŠEM.",
+  "permissions": ["storage", "https://videolearningvsem.cz/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://videolearningvsem.cz/lectures/view/*"],
+      "js": ["video-data-saver.js"]
+    },
+    {
+      "matches": ["https://videolearningvsem.cz/homepage/prehled/*"],
+      "js": ["watchmarker.js"]
+    }
+  ],
+  "icons": {
+    "32": "icon32.png"
+  }
+}
