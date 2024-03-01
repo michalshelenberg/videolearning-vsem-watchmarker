@@ -1,0 +1,15 @@
+{
+  "name": "videolearning-vsem-watchmarker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "video-data-saver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:firefox": "web-ext run",
+    "start:chromium": "web-ext run -t chromium",
+    "build": "web-ext build --overwrite-dest"
+  },
+  "keywords": [],
+  "author": "Michal Shelenberg",
+  "license": "MPL 2.0"
+}

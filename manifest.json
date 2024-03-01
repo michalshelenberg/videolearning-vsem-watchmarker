@@ -1,9 +1,9 @@
 {
   "name": "Videolearning VŠEM Watchmarker",
-  "version": "0.1",
-  "manifest_version": 2,
-  "description": "Add progress tracking to Videolearning VŠEM.",
-  "permissions": ["storage", "https://videolearningvsem.cz/*"],
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Tato rozšíření automaticky označuje zhlédnuté lekce a zobrazuje tvůj postup na Videolearning VŠEM.",
+  "permissions": ["activeTab", "storage"],
   "content_scripts": [
     {
       "matches": ["https://videolearningvsem.cz/lectures/view/*"],
@@ -16,5 +16,10 @@
   ],
   "icons": {
     "32": "icon32.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{2e422f5f-5432-4949-ae74-1d7117e6d7aa}"
+    }
   }
 }
