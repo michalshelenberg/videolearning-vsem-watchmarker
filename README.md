@@ -1,8 +1,8 @@
 # Videolearning VŠEM Watchmarker
 
-![Videolearning VŠEM Watchmarker](https://addons.mozilla.org/user-media/previews/full/296/296342.png)
+![](https://addons.mozilla.org/user-media/previews/full/296/296342.png)
 
-Rozšíření automaticky označuje již zhlédnuté lekce a vizualizuje postup v online výukovém prostředí Videolearning VŠEM. S pomocí této aplikace budete mít přehled o tom, které lekce jste již dokončili a které ještě čekají.
+Rozšíření automaticky označuje již zhlédnuté lekce a vizualizuje postup v online výukovém prostředí Videolearning VŠEM. S pomocí tohoto rozšíření budete mít přehled o tom, které lekce jste již dokončili a které ještě čekají.
 
 ## Installation
 
