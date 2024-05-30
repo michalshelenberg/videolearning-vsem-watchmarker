@@ -1,8 +1,8 @@
 {
-  "name": "Videolearning VŠEM Watchmarker",
-  "version": "1.0.1",
+  "name": "VŠEM Watchmarker",
+  "version": "1.0.2",
   "manifest_version": 3,
-  "description": "Tato rozšíření automaticky označuje zhlédnuté lekce a zobrazuje tvůj postup na Videolearning VŠEM.",
+  "description": "Rozšíření označuje zhlédnuté lekce na Videolearning VŠEM a automaticky posune video tam, kde jste skončili",
   "permissions": ["storage"],
   "host_permissions": ["https://videolearningvsem.cz/"],
   "content_scripts": [
